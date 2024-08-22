@@ -16,7 +16,11 @@ public class MemberEntity {
     private Long id;
     private String name;
 
-    public Member(String name) {
+    public MemberEntity(String name) {
+        this.name = name;
+    }
+
+    public void update(String name) {
         this.name = name;
     }
 
